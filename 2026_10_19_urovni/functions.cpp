@@ -48,7 +48,7 @@ const MenuItem* goUpTwoLevels(const MenuItem* current)
     return current->parent->parent;
 }
 
-const MenuItem* artLesson(const MenuItem* current)
+const MenuItem* artistsName(const MenuItem* current)
 {
     std::cout << "\n" << current->title << "\n";
     return current->parent;                   
